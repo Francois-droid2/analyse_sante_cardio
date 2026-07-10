@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import os
-from sklearn.linear_model import LogisticRegression
-from sklearn.cluster import KMeans
-from sklearn.preprocessing import StandardScaler
+from scikit-learn.linear_model import LogisticRegression
+from scikit-learn.cluster import KMeans
+from scikit-learn.preprocessing import StandardScaler
 
 DATA_FILE = "donnees_sante_cardiaque.csv"
 
